@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charter Support</title>
+<meta name="description" content="Support and FAQ for Charter, the CFA exam study planner: how the schedule works, re-planning, widgets, subscriptions.">
+<style>
+  :root{
+    color-scheme: light dark;
+    --bg:#F2F4F8;
+    --surface:#FFFFFF;
+    --ink:#171A21;
+    --ink-soft:#5A6070;
+    --accent:#2B4A8B;
+    --rule:#DDE2EA;
+    --amber:#8A6412;
+    --callout-bg:#E7ECF5;
+    --mono-bg:#E7ECF5;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#101319;
+      --surface:#191D25;
+      --ink:#E8EBF1;
+      --ink-soft:#99A0B0;
+      --accent:#93A7D6;
+      --rule:#272C36;
+      --amber:#D6AC55;
+      --callout-bg:#1D222C;
+      --mono-bg:#1D222C;
+    }
+  }
+  *{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  main{ max-width:40em; margin:0 auto; padding:2.75rem 1.5rem 6rem; }
+  h1{
+    font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+    font-size:1.9rem; line-height:1.25; margin:0 0 .35rem; color:var(--ink);
+  }
+  h2{
+    font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+    font-size:1.3rem; margin:2.4rem 0 .9rem; padding-top:1.5rem;
+    border-top:1px solid var(--rule); color:var(--ink); scroll-margin-top:1rem;
+  }
+  h3{ font-size:1.05rem; margin:1.6rem 0 .6rem; color:var(--ink); }
+  p, li{ font-size:1rem; color:var(--ink); }
+  p{ margin:0 0 1rem; }
+  .meta{ color:var(--ink-soft); font-size:.95rem; margin:0 0 2.25rem; }
+  .lede{ color:var(--ink-soft); font-size:1.08rem; }
+  a{ color:var(--accent); }
+  ul, ol{ padding-left:1.3rem; margin:0 0 1rem; }
+  li{ margin-bottom:.5rem; }
+  .callout{
+    background:var(--callout-bg); border-left:4px solid var(--amber);
+    border-radius:10px; padding:1.2rem 1.4rem .2rem; margin:1.75rem 0;
+  }
+  .callout h2, .callout h3{ margin-top:0; border-top:none; padding-top:0; }
+  .toc{
+    background:var(--surface); border:1px solid var(--rule);
+    border-radius:12px; padding:1.1rem 1.4rem; margin:2.25rem 0;
+  }
+  .toc p{
+    margin:0 0 .6rem; font-weight:600; font-size:.8rem;
+    text-transform:uppercase; letter-spacing:.06em; color:var(--ink-soft);
+  }
+  .toc ol{ margin:0; padding-left:1.2rem; columns:1; }
+  .toc li{ margin-bottom:.4rem; font-size:.95rem; }
+  .toc a{ text-decoration:none; }
+  .toc a:hover{ text-decoration:underline; }
+  footer{
+    margin-top:3.5rem; padding-top:1.5rem; border-top:1px solid var(--rule);
+    color:var(--ink-soft); font-size:.9rem;
+  }
+  strong{ color:var(--ink); }
+</style>
+</head>
+<body>
+<main>
+<h1>Charter Support</h1>
+<p class="meta">Last updated: September 9, 2026</p>
+<p class="lede">Charter turns an exam date and the hours you actually have into a schedule, then
+keeps it honest when the weeks don't go to plan. Here's how it works, and what to do when it
+doesn't.</p>
+
+<div class="callout">
+<h3>Contact</h3>
+<p>Email <a href="mailto:williamscott701@gmail.com?subject=Charter">williamscott701@gmail.com</a>.
+It's one developer, so replies take a day or two — but every email is read. Mentioning your device
+and iOS version helps.</p>
+</div>
+
+<h2 id="how">How does Charter decide what to study today?</h2>
+<p>Three inputs. The exam's own published weight for each topic sets the baseline, so a topic
+worth 15% of the paper gets roughly triple the hours of one worth 5%. Your self-rated confidence
+then bends that: the topic you rated 0 pulls up to about 1.8 times what its weight alone would
+give it, and the one you rated 5 gets exactly its weighted share and no less — nobody should walk
+in having spent zero hours on anything.</p>
+<p>Those hours are then spread across the days you said you're free, interleaved so no topic is
+finished in one block and forgotten, with the last stretch before the exam reserved for review and
+mock papers rather than new material.</p>
+
+<h2 id="behind">What happens when I fall behind?</h2>
+<p>Nothing accumulates. Charter does not show you a growing pile of missed days — that is the
+thing that makes people delete study apps. Instead it re-cuts the days you have left around the
+work that is genuinely still outstanding, re-weighted by how you feel about each topic now.</p>
+<p>This happens automatically once you have drifted more than six hours from the plan, or on
+demand from the rebuild button on the Plan tab. Hours you have already logged are always kept.
+You can turn the automatic version off in Settings.</p>
+
+<h2 id="wontfit">It says my plan "won't fit" — what does that mean?</h2>
+<p>It means the honest thing: the hours still to do are more than the days before your exam can
+hold at the availability you entered. Charter tells you this as early as it can see it, rather
+than quietly overfilling days you were never going to work.</p>
+<p>You have three real options, and the app will show you the numbers for each: add hours to your
+weekly availability, reduce your target hours, or accept it and let the schedule prioritise by
+exam weight so the shortfall comes off the topics worth least. Any of those is better than finding
+out in the last fortnight.</p>
+
+<h2 id="weights">Are the topic weights official?</h2>
+<p>They follow the published outline for the curriculum year shown in the app, but exam boards
+revise them, and Charter ships with them marked unverified for exactly that reason — you will see
+a notice on the Topics tab saying so.</p>
+<p><strong>Check them against the official study session outline for your own sitting.</strong>
+Charter is a planner, not an authority on the syllabus. If the weights have moved, the split of
+your hours will be slightly off, and that is worth knowing before you rely on it.</p>
+
+<h2 id="content">Does Charter include practice questions or study notes?</h2>
+<p>No, and it never will. Charter contains no exam content of any kind. It plans and tracks your
+time; your curriculum, question bank and notes come from wherever you already get them. That's a
+deliberate scope, not a missing feature.</p>
+
+<h2 id="readiness">What is the readiness score, and should I trust it?</h2>
+<p>It combines three things per topic: how much of the allocated time you have actually done
+(55%), how confident you have rated yourself (30%), and how recently you touched it (15%, halving
+roughly every three weeks). Those are weighted by what each topic is worth to the exam.</p>
+<p>Treat it as a planning aid, not a prediction. It is built from numbers you gave it about
+yourself, so it is exactly as honest as your own ratings. It cannot tell you whether you will
+pass — nothing can. The projection next to it shows where the score lands on exam day if your
+recent pace holds, which is usually the more useful of the two.</p>
+
+<h2 id="data">Where is my data, and how do I get it out?</h2>
+<p>On your device, and nowhere else — no account, no server. Charter Pro exports every session and
+mock score as CSV from Settings &rarr; Data. Settings also has a Delete all data option that
+removes everything immediately. Full detail in the <a href="privacy.html">privacy policy</a>.</p>
+
+<h2 id="widgets">My widget isn't updating</h2>
+<p>Widgets refresh when the app writes a new summary — which happens whenever you log a session or
+change the plan — and again after midnight so the countdown stays right. If one looks stale:</p>
+<ul>
+  <li>Open Charter once; that forces a refresh.</li>
+  <li>Remove the widget and add it again.</li>
+  <li>Check <strong>Settings &rarr; General &rarr; Background App Refresh</strong> is on.</li>
+</ul>
+<p>The readiness widget shows a lock without a subscription; that is expected, not a fault.</p>
+
+<h2 id="reminders">Reminders aren't arriving</h2>
+<p>Charter uses local notifications only, so there is no server to blame. Check
+<strong>Settings &rarr; Notifications &rarr; Charter</strong> is allowed, that Focus or Scheduled
+Summary is not holding them back, and that the daily reminder is switched on inside Charter's own
+Settings. Changing the reminder time reschedules everything.</p>
+
+<h2 id="pro">Pro, trials, and cancelling</h2>
+<p>Pro is an auto-renewing subscription, annual or monthly, billed by Apple. The countdown, your
+next session and manual logging stay free forever, and nothing you have logged is ever locked away
+if a subscription ends.</p>
+<p>Cancel in <strong>Settings &rarr; your name &rarr; Subscriptions</strong>, or via the Manage
+subscription link in Charter's Settings. Cancelling stops the next renewal and you keep Pro until
+the period you paid for runs out. Refunds are Apple's to give — request one at
+<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Restored a device or
+changed phone? Tap <strong>Restore purchases</strong> in Settings.</p>
+
+<h2 id="affiliation">Charter is not affiliated with CFA Institute</h2>
+<p>Charter is an independent app by an independent developer. CFA Institute has not reviewed,
+approved, endorsed or contributed to it, and has no association with it. Charter references the
+exam by name only to say which exam it helps you plan for.</p>
+
+<h2 id="legal">Privacy and terms</h2>
+<p><a href="privacy.html">Privacy policy</a> &middot; <a href="terms.html">Terms of use</a></p>
+<footer>
+  <p>Charter is made by an independent developer. Questions:
+  <a href="mailto:williamscott701@gmail.com?subject=Charter">williamscott701@gmail.com</a></p>
+  <p><a href="./">Support</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+  <p>CFA&reg; and Chartered Financial Analyst&reg; are registered trademarks owned by CFA Institute.
+  Charter is not affiliated with, endorsed by, or associated with CFA Institute.</p>
+</footer>
+</main>
+</body>
+</html>
