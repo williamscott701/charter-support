@@ -2,31 +2,31 @@
 # palette and typography cannot drift between pages.
 import datetime
 
-UPDATED = "September 9, 2026"
+UPDATED = "October 11, 2026"
 
 STYLE = """  :root{
     color-scheme: light dark;
-    --bg:#F2F4F8;
-    --surface:#FFFFFF;
-    --ink:#171A21;
-    --ink-soft:#5A6070;
-    --accent:#2B4A8B;
-    --rule:#DDE2EA;
+    --bg:#F5EBDD;
+    --surface:#FBF5EC;
+    --ink:#1F1A16;
+    --ink-soft:#5E544A;
+    --accent:#8E1F2F;
+    --rule:#CDBFAC;
     --amber:#8A6412;
-    --callout-bg:#E7ECF5;
-    --mono-bg:#E7ECF5;
+    --callout-bg:#EBDDC9;
+    --mono-bg:#EBDDC9;
   }
   @media (prefers-color-scheme: dark){
     :root{
-      --bg:#101319;
-      --surface:#191D25;
-      --ink:#E8EBF1;
-      --ink-soft:#99A0B0;
-      --accent:#93A7D6;
-      --rule:#272C36;
+      --bg:#15120F;
+      --surface:#201B17;
+      --ink:#EFE6DA;
+      --ink-soft:#BDB2A4;
+      --accent:#E07A85;
+      --rule:#3A322B;
       --amber:#D6AC55;
-      --callout-bg:#1D222C;
-      --mono-bg:#1D222C;
+      --callout-bg:#2A231D;
+      --mono-bg:#2A231D;
     }
   }
   *{ box-sizing:border-box; }
@@ -191,13 +191,13 @@ include today's topic and your countdown, so it can appear on your Lock Screen. 
 in Settings, or revoke the permission in iOS Settings, at any time.</p>
 
 <h2 id="subscriptions">6. Subscriptions and payment</h2>
-<p>Charter Pro is sold through Apple's In-App Purchase system. Apple handles the entire
+<p>The Full Edition is sold through Apple's In-App Purchase system. Apple handles the entire
 transaction; Charter never sees or stores your payment details. The app asks Apple whether an
 active subscription exists for this Apple Account and receives back an entitlement — nothing that
 identifies you personally. Apple's own privacy policy governs that transaction.</p>
 
 <h2 id="export">7. Exporting and sharing your data</h2>
-<p>Charter Pro can export your sessions and mock scores as CSV files. The file is created on your
+<p>The Full Edition can export your sessions and mock scores as CSV files. The file is created on your
 device and handed to the iOS share sheet, where you choose what happens to it. If you send it
 somewhere — email, a messaging app, a cloud drive — that destination's own privacy policy applies
 from then on. Charter has no involvement once you have chosen.</p>
@@ -258,7 +258,7 @@ TERMS_SECTIONS = [
     ("what", "2. What Charter is, and what it is not"),
     ("licence", "3. Your licence to use Charter"),
     ("yours", "4. Your data is yours"),
-    ("free", "5. What's free, and what Pro adds"),
+    ("free", "5. What's free, and what the Full Edition adds"),
     ("subscription", "6. Subscription terms"),
     ("trials", "7. Free trials"),
     ("cancelling", "8. Cancelling"),
@@ -288,7 +288,7 @@ exams. Installing or using Charter means you accept them.</p>
 <div class="callout">
 <h3>The parts people actually need</h3>
 <p>Charter plans your study time. It contains no exam content and cannot tell you whether you
-will pass. Pro is an auto-renewing subscription billed by Apple; it renews until you cancel, and
+will pass. The Full Edition is an auto-renewing subscription billed by Apple; it renews until you cancel, and
 you cancel through your Apple Account settings rather than through the app. Refunds are handled
 by Apple, not by the developer.</p>
 </div>
@@ -319,20 +319,20 @@ app, except to the extent that restriction is prohibited by law in your country.
 
 <h2 id="yours">4. Your data is yours</h2>
 <p>Everything you enter belongs to you. It stays on your device — see the
-<a href="privacy.html">privacy policy</a> — and Charter Pro can export it as CSV at any time. The
+<a href="privacy.html">privacy policy</a> — and the Full Edition can export it as CSV at any time. The
 developer claims no ownership of and no rights over anything you enter.</p>
 
-<h2 id="free">5. What's free, and what Pro adds</h2>
+<h2 id="free">5. What's free, and what the Full Edition adds</h2>
 <p>Without a subscription, Charter gives you the exam countdown, your next scheduled session,
 unlimited manual session logging and the first days of your schedule, for as long as you want.
 Nothing you have logged is ever taken away or locked if a subscription lapses; you keep access to
 your own data.</p>
-<p>Charter Pro adds the complete schedule through to exam day, automatic re-planning when you fall
+<p>The Full Edition adds the complete schedule through to exam day, automatic re-planning when you fall
 behind, readiness scoring and projection, the burndown and weekly charts, mock exam tracking,
 per-topic tracking and CSV export.</p>
 
 <h2 id="subscription">6. Subscription terms</h2>
-<p>Charter Pro is offered as an auto-renewing subscription, billed through your Apple Account:</p>
+<p>The Full Edition is offered as an auto-renewing subscription, billed through your Apple Account:</p>
 <ul>
   <li><strong>Annual</strong> — billed once a year.</li>
   <li><strong>Monthly</strong> — billed once a month.</li>
@@ -354,7 +354,7 @@ shown. Any unused portion of a trial is forfeited if you buy a subscription duri
 <p>Cancel at any time in <strong>Settings &rarr; your name &rarr; Subscriptions</strong> on your
 device, or through the App Store app. Charter cannot cancel a subscription for you — Apple does
 not give apps that ability. Settings inside Charter has a "Manage subscription" link that opens
-Apple's own sheet. Cancelling stops the next renewal; you keep Pro until the end of the period
+Apple's own sheet. Cancelling stops the next renewal; you keep the Full Edition until the end of the period
 you have already paid for.</p>
 
 <h2 id="refunds">9. Refunds</h2>
@@ -509,7 +509,7 @@ pass — nothing can. The projection next to it shows where the score lands on e
 recent pace holds, which is usually the more useful of the two.</p>
 
 <h2 id="data">Where is my data, and how do I get it out?</h2>
-<p>On your device, and nowhere else — no account, no server. Charter Pro exports every session and
+<p>On your device, and nowhere else — no account, no server. The Full Edition exports every session and
 mock score as CSV from Settings &rarr; Data. Settings also has a Delete all data option that
 removes everything immediately. Full detail in the <a href="privacy.html">privacy policy</a>.</p>
 
@@ -529,12 +529,12 @@ change the plan — and again after midnight so the countdown stays right. If on
 Summary is not holding them back, and that the daily reminder is switched on inside Charter's own
 Settings. Changing the reminder time reschedules everything.</p>
 
-<h2 id="pro">Pro, trials, and cancelling</h2>
-<p>Pro is an auto-renewing subscription, annual or monthly, billed by Apple. The countdown, your
+<h2 id="pro">The Full Edition, trials, and cancelling</h2>
+<p>The Full Edition is an auto-renewing subscription, annual or monthly, billed by Apple. The countdown, your
 next session and manual logging stay free forever, and nothing you have logged is ever locked away
 if a subscription ends.</p>
 <p>Cancel in <strong>Settings &rarr; your name &rarr; Subscriptions</strong>, or via the Manage
-subscription link in Charter's Settings. Cancelling stops the next renewal and you keep Pro until
+subscription link in Charter's Settings. Cancelling stops the next renewal and you keep the Full Edition until
 the period you paid for runs out. Refunds are Apple's to give — request one at
 <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Restored a device or
 changed phone? Tap <strong>Restore purchases</strong> in Settings.</p>
